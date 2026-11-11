@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Capreader Privacy Policy</title>
+  <style>
+    :root { color-scheme: light dark; font: 16px/1.65 system-ui, sans-serif; }
+    body { max-width: 46rem; margin: 3rem auto; padding: 0 1.25rem; }
+    h1, h2 { line-height: 1.25; }
+    h2 { margin-top: 2rem; }
+    li + li { margin-top: .5rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Capreader Privacy Policy</h1>
+    <p>Effective October 11, 2026. Published by Angelo S. Enriquez.</p>
+    <p>This policy covers Capreader 1.4.0, a Chrome extension for capturing and reviewing text from browser tabs and images, exporting that text, and preparing drafts for AI chats you choose.</p>
+
+    <h2>Data Capreader handles</h2>
+    <ul>
+      <li><strong>Captures and selections.</strong> When you use a capture or selection command, Capreader reads a screenshot of the tab, an assembled screenshot of a scrolling page, or selected page text. It may use the page title and address as source information. OCR, editing, redaction, and export generation run on your device.</li>
+      <li><strong>Sources and preferences.</strong> The source tray holds excerpts, their order, and available page titles and source addresses. Capreader strips URL query strings and fragments from saved source links. You choose whether those links appear in a generated draft. Capreader also stores your selected theme and any custom prompt recipe you save.</li>
+      <li><strong>Batch OCR and language packs.</strong> Capreader processes queued screenshots and the image files you choose on your device. It uses one selected OCR language at a time for both single captures and batches. English is included. If you install another language pack from a file, Capreader stores that pack and your language preference locally.</li>
+      <li><strong>Table batches and redaction rules.</strong> When you add a table to a batch, Capreader stores its name, cells, and layout for the browser session. It stores the names, patterns, and enabled settings of your saved redaction rules on your device.</li>
+      <li><strong>Open chat tabs.</strong> If you grant optional tab access, Capreader uses matching open tab titles and addresses to list supported chat tabs and verify the destination you selected. If you grant access to the selected chat site, Capreader uses it to insert the draft into that tab’s prompt.</li>
+    </ul>
+
+    <h2>Sharing and third parties</h2>
+    <p>Capreader has no developer-operated backend, advertising, or analytics. The publisher does not receive your screenshots, excerpts, drafts, or tab information through the extension and does not sell that data.</p>
+    <p>When you choose to insert a draft, Capreader places the draft text into the page for ChatGPT (OpenAI), Claude (Anthropic), or Gemini (Google), depending on your chosen tab. Capreader leaves submission to you. The selected site can process text entered in its prompt under its own privacy policy, including through any draft-saving behavior it provides.</p>
+    <p>When you choose on-device translation, Capreader uses Chrome’s Translator API. Chrome may download a language model. If you choose translation in an AI chat, the draft follows the chat insertion process described above.</p>
+    <p>When you choose Copy or Download, Capreader writes the content to your clipboard or creates a local file. Other apps or services may receive that content if you paste, share, or upload it.</p>
+
+    <h2>Storage and your choices</h2>
+    <ul>
+      <li>Pending screenshots are temporarily held in local browser storage. Capreader removes a pending screenshot when the results page retrieves it. Unused captures expire after one minute and are cleared during a later capture.</li>
+      <li>Source tray clips are stored for the browser session. You can remove individual clips in the tray. The saved theme and custom recipe remain in local extension storage until replaced or the extension is removed.</li>
+      <li>Queued screenshots and their source information remain on your device until you remove them from the batch or uninstall Capreader. Image files you choose and their unsaved OCR results are held in the batch page while it is open. You can remove tables from the session batch and remove installed packs or saved rules in Pro tools.</li>
+      <li>You can revoke optional site access or remove Capreader in Chrome’s extension settings. Files you downloaded, text you copied, and drafts placed into chat pages are managed separately.</li>
+    </ul>
+
+    <h2>Chrome Web Store Limited Use</h2>
+    <p>Capreader’s use of data received from Chrome APIs adheres to the Chrome Web Store User Data Policy, including its Limited Use requirements.</p>
+
+    <h2>Contact</h2>
+    <p>For privacy questions, contact <a href="mailto:artosien22@gmail.com">artosien22@gmail.com</a>.</p>
+  </main>
+</body>
+</html>
